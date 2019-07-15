@@ -1,0 +1,142 @@
+/******BASE STYLES******/
+body {
+  font-family: 'Lato', sans-serif;
+}
+header {
+  height: 700px;
+}
+h4 {
+  font-size: 20px;
+}
+p {
+  font-size: 18px;
+  line-height: 26px;
+}
+h3 {
+  font-family: 'Lustria', serif;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+#portfolio {
+  height: 1450px;
+}
+#about {
+  height: 650px;
+}
+#contact {
+  height: 450px;
+}
+/******GRID******/
+.full-width {
+  width: 1200px;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+  text-align: center;
+}
+/******HEADER******/
+header {
+  background: url('../img/hero-image-4.png');
+  background-size: cover;
+  padding-top: 1px;
+}
+header h1 {
+  font-family: 'Lustria', serif;
+  font-size: 40px;
+  padding: 120px 0 0 30px;
+  color: #401919;
+}
+header h2 {
+  font-size: 34px;
+  padding-left: 30px;
+  color: #595856;
+}
+nav {
+  float: right;
+  padding-top: 10px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #595856;
+  padding-left: 35px;
+}
+/******PORTFOLIO******/
+#jubilee-img {
+  border: 1px solid #595856;
+  margin-left: 35px;
+  margin-top: 50px;
+}
+#rogue-img {
+  border: 1px solid #595856;
+  margin-left: 35px;
+  margin-top: 60px;
+}
+#holstee-img {
+  border: 1px solid #595856;
+  margin-left: 35px;
+  margin-top: 60px;
+}
+#jubilee-text {
+  padding-top: 20px;
+  padding-right: 0px;
+  margin-left: 50px;
+}
+#rogue-text {
+  margin-top: 231px;
+  padding-right: 0px;
+  margin-left: 50px;
+}
+#holstee-text {
+  margin-top: 255px;
+  padding-right: 0px;
+  margin-left: 50px;
+}
+span {
+  font-size: 18px;
+  line-height: 30px;
+}
+/******ABOUT******/
+#about {
+  background-color: #A63737;
+  color: #f2f2f2;
+  padding-top: 1px;
+}
+.half-width #about-img {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+#about-img {
+  border: 1px solid #f2f2f2;
+}
+#about-text {
+  padding-top: 20px;
+  margin-left: 50px;
+}
+/******CONTACT******/
+#contact {
+  background-color: #401919;
+  color: #f2f2f2;
+  padding-top: 1px;
+}
+#contact p {
+  line-height: 26px;
+}
+.third-width a {
+  text-decoration: none;
+  color: #f2f2f2;
+  line-height: 10px;
+  font-size: 18px;
+}
+a {
+  margin: 0 15px 0 15px;
+}
